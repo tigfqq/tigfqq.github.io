@@ -192,8 +192,8 @@ createApp({
             });
         },
         share() {
-            const locationHref = window.location.href
-            const url = `https://www.facebook.com/sharer/sharer.php?u=${locationHref}&amp;src=sdkpreparse`
+            const shareLink = 'https://www.facebook.com/100071134225335/posts/pfbid0mXB8Ubg4mnWTbDSoaNe2U1d8NQNfS7t9ex3cfyoUTkqedE6viNS3tCq2D8ERE5Dml/?mibextid=cr9u03'
+            const url = `https://www.facebook.com/sharer/sharer.php?u=${shareLink}&amp;src=sdkpreparse`
 
             window.open(url)
         }
