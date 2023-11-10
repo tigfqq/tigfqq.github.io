@@ -104,6 +104,10 @@ createApp({
             expandMenu: false,
             menu: [{
 
+                id: '0',
+                name: '得獎公告',
+            },{
+
                 id: '1',
                 name: '活動資訊',
             },

@@ -29,7 +29,7 @@
             <div class="w-full max-w-[1280px] h-[80px] mx-auto flex items-center justify-between">
                 <div class="flex items-center">
                     <button type="button"
-                            class="flex lg:hidden mx-[20px]"
+                            class="flex xl:hidden mx-[20px]"
                             @click="setExpandMenu(!expandMenu)">
                         <svg xmlns="http://www.w3.org/2000/svg"
                              width="24"
@@ -43,9 +43,9 @@
                     </button>
                     <img src="./img/logo.svg"
                          alt=""
-                         class="h-[40px] lg:h-[30px] xl:h-[50px]">
+                         class="h-[40px]">
                 </div>
-                <div class="hidden lg:flex">
+                <div class="hidden xl:flex">
                     <a v-for="(item) in menu"
                        class="cursor-pointer ms-[10px] xl:ms-[20px]"
                        :key="item.id"
@@ -118,6 +118,15 @@
         <img src="./img/banner.png"
              alt=""
              class="w-full mt-[80px]">
+        <div id="block0"
+             class="py-[100px] p-[20px]">
+            <div class="w-full max-w-[800px] mx-auto">
+                <h2 class="text-center text-[40px] mb-[50px]">得獎公告
+                </h2>
+                
+                <img src="./img/price1.jpg" alt="">
+            </div>
+        </div>
         <div id="block1"
              class="bg-white/30 py-[100px] p-[20px]">
             <div class="w-full max-w-[800px] mx-auto">
@@ -136,7 +145,7 @@
                         活動介紹
                     </div>
                     <div class="text-[18px] ps-[30px]">
-                    「2023好險有你：守護、關懷、愛系列活動」是財團法人保險安定基金為推廣保險知識所舉辦的一系列活動，今年也加入線上路跑，希望愛運動的朋友在運動的同時也可以獲得保險相關知識，讓你的每一步都更加有意義！
+                        「2023好險有你：守護、關懷、愛系列活動」是財團法人保險安定基金為推廣保險知識所舉辦的一系列活動，今年也加入線上路跑，希望愛運動的朋友在運動的同時也可以獲得保險相關知識，讓你的每一步都更加有意義！
                     </div>
                 </h2>
                 <h2 class="flex text-[24px] mb-[20px]">
